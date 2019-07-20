@@ -136,7 +136,7 @@ a:active {
   width: 100%;
   height: 100%;
   background: url("../images/overlay-pattern.png") #000000;
-  opacity: 0.3;
+  opacity: 0;
 }
 /*--
     nav Start
@@ -157,8 +157,23 @@ nav .block .navbar-default {
   margin-bottom: 0;
   background: none;
 }
+nav .block . {
+  color: #959595;
+  font-size: 18px;
+  line-height: 35px;
+  padding: 20px 0px;
+}
+nav .block .navbar-default .navbar-container {
+  display: flex;
+  flex-direction:row;
+}
+nav .block .navbar-default .navbar-header {
+  width: 40%;
+}
 nav .block .navbar-default .navbar-brand {
   padding-left: 0px;
+  display: flex;
+  align-items: center;
 }
 nav .block .navbar-default .navbar-nav {
   padding-top: 10px;
