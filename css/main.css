@@ -289,9 +289,13 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 #about-us .block p {
   color: #959595;
-  font-size: 18px;
-  line-height: 35px;
-  padding: 20px 0px;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 40px 10px;
+}
+#about-us .block .content {
+  display: flex;
+  flex-direction: row;
 }
 
 #about-us .block img {
@@ -323,6 +327,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 #blog .block .heading {
   color: #fff;
+  font-weight: 600;
 }
 #blog .block ul {
   padding-top: 40px;
@@ -456,7 +461,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   text-align: center;
 }
 #price .block .pricing-list {
-  padding-top: 85px;
+  padding-top: 40px;
 }
 #price .block .pricing-list ul {
   padding: 0 0 30px;
@@ -656,6 +661,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 #footer .block .heading {
   color: #555;
+  font-weight: 600;
 }
 #footer .block .heading:before {
   background: #555;
@@ -702,6 +708,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding-bottom: 10px;
   display: block;
   color: #576BAB;
+  font-weight: 600;
 }
 #footer .block .blog ul li h4 i,
 #footer .block .info ul li h4 i,

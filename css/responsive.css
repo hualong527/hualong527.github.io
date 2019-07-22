@@ -222,7 +222,13 @@ px      68    160    252    */
     padding: 20px 0;
   }
   #about-us .block p {
-    padding: 40px 0px 0px;
+    padding: 40px 10px 0px;
+  }
+  #about-us .block .content {
+    flex-direction: column;
+  }
+  #about-us .block p {
+    padding: 40px 10px 0px;
   }
   /*--
     custom title Start
