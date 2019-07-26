@@ -156,6 +156,7 @@ px      68    160    252    */
   }
   nav .block {
     padding: 0px;
+    margin-top: -70px;
     margin-bottom: 0px;
     background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
     background: -o-linear-gradient(right, rgba(255, 255, 255, 0.6), #ffffff);
@@ -171,7 +172,7 @@ px      68    160    252    */
     padding: 3px 0;
   }
   nav .block .navbar-default .navbar-header {
-    padding-bottom: 15px;
+    /*padding-bottom: 15px;*/
     margin-top: 0px;
     width: 100%;
   }
