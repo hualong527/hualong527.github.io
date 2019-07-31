@@ -1,13 +1,21 @@
 /* var text-decoration */
 @font-face {
   font-family: myfont;
-  src: url(../fonts/NotoSerifJP-Regular.ttf);
+  src: url("../fonts/NotoSerifJP-Regular.eot"); /* IE9 */
+  src: url("../fonts/NotoSerifJP-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+
+  url("../fonts/NotoSerifJP-Regular.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/NotoSerifJP-Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+
+  url("../fonts/NotoSerifJP-Regular.svg#NotoSerifJP-Regular") format("svg"); /* iOS 4.1- */
 }
+
+
 /*--
     Common Css
 --*/
 body {
-  font-family: myfont;
+  font-family: myfont,arial;
   font-size: 14px;
   font-weight: 400;
 }
@@ -36,7 +44,7 @@ p {
   font-weight: 400;
   line-height: 20px;
   margin: 0px;
-  font-family: myfont;
+  font-family: arial,myfont;
 }
 ul {
   padding: 0;
